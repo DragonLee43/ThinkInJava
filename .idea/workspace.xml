@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4847347-19c4-4d39-a9c8-2bf341a5eedf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noteBook/Java积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/noteBook/Java积累.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600673013309</updated>
-      <workItem from="1600673016338" duration="3287000" />
+      <workItem from="1600673016338" duration="4844000" />
     </task>
     <servers />
   </component>

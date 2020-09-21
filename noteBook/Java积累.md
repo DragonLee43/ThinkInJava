@@ -174,3 +174,11 @@ public class MTransactionRollbackException extends MacawRuntimeException {
 
 ```
 
+### 三、ThinkInJava
+
+10. 内部类
+
+​	内部类可以访问到外围类的所有成员，当外围类对象创建内部类的对象时，会秘密捕获它的外围类对象的引用。然后，当你访问外围类的成员时，就是这个引用来选择外围类的成员。
+
+
+
