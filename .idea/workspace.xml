@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4847347-19c4-4d39-a9c8-2bf341a5eedf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +30,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hoMVFnxdDeOoYdpbDhXL820wPs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +51,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test1.Sequence" />
+      <module name="ThinkInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drlee.unit10_innerclass.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sequence" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600673013309</updated>
-      <workItem from="1600673016338" duration="109000" />
+      <workItem from="1600673016338" duration="3287000" />
     </task>
     <servers />
   </component>
@@ -76,5 +100,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600678212227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678212227" />
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1600678576086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678576086" />
+    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1600678576086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678576086" />
+    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1600678576086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678576086" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1600678576086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678576086" />
+    <state x="374" y="78" key="SettingsEditor" timestamp="1600673286913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="78" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600673286913" />
   </component>
 </project>
