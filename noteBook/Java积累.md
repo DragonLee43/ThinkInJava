@@ -178,7 +178,76 @@ public class MTransactionRollbackException extends MacawRuntimeException {
 
 10. 内部类
 
-​	内部类可以访问到外围类的所有成员，当外围类对象创建内部类的对象时，会秘密捕获它的外围类对象的引用。然后，当你访问外围类的成员时，就是这个引用来选择外围类的成员。
+​	内部类可以访问到外围类的所有成员，当外围类对象创建内部类的对象时，会秘密捕获它的外围类对象的引用。然后，当你访问外围类的成员时，就是这个引用来选择外围类的成员。 
+
+10.6. 匿名内部类
+
+​	示例如下：
+
+```java
+public interface Contents {
+    int value();
+}
+
+// 创建一个继承自Contents的匿名类对象，通过new表达式返回的引用被自动向上转型为Contents的引用。
+public class Parcel7 {
+    public Contents contents(){
+        return new Contents() {
+            private int i = 11;
+            public int value() {
+                return i;
+            }
+        };
+    }
+}
+///////////////////////////////////
+// 该示例是上面示例的完整形式。
+public class Parcel8 {
+    public Contents contents(){
+        return new MyContents();
+    };
+
+    class MyContents implements Contents{
+        private int i = 11;
+        public int value() {
+            return i;
+        }
+    }
+}
+```
+
+
+
+```java
+// 基类是有参构造器的场景，使用super来调用基类的参数
+public class Parcel8 {
+    public Wrapping wrapping(int x)
+    {
+        return new Wrapping(x){
+            public int value(){
+                return super.value() *10;
+            }
+        };
+    }
+    public static void main(String[] args) {
+        Parcel8 p8 = new Parcel8();
+        Wrapping wrapping = p8.wrapping(10);
+        System.out.println(wrapping.value());
+    }
+}
+
+public class Wrapping {
+    private int i;
+    public Wrapping(int x )
+    {
+        i = x;
+    }
+    public int value()
+    {
+        return i;
+    }
+}
+```
 
 
 
