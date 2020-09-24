@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4847347-19c4-4d39-a9c8-2bf341a5eedf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/noteBook/Java积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/noteBook/Java积累.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/test3/Callbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/test3/Callbacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Callbacks">
+  <component name="RunManager" selected="Application.GreenhouseController">
     <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test3.Callbacks" />
       <module name="ThinkInJava" />
@@ -74,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.drlee.unit10_innerclass.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenhouseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test4.GreenhouseController" />
+      <module name="ThinkInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drlee.unit10_innerclass.test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test1.Sequence" />
-      <module name="ThinkInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.drlee.unit10_innerclass.test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GreenhouseController" />
         <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.Factorys" />
         <item itemvalue="Application.Implementational1" />
         <item itemvalue="Application.Parcel8" />
-        <item itemvalue="Application.Sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600673013309</updated>
       <workItem from="1600673016338" duration="6326000" />
-      <workItem from="1600825736158" duration="7167000" />
+      <workItem from="1600825736158" duration="12859000" />
     </task>
     <servers />
   </component>
@@ -161,34 +161,70 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600918971868">
+    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600935398968">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678212227" />
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600918971868" />
-    <state width="1869" height="279" key="GridCell.Tab.0.bottom" timestamp="1600830117868">
+    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935398968" />
+    <state width="528" height="582" key="DebuggerActiveHint" timestamp="1600935797936">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="528" height="582" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935797936" />
+    <state width="1869" height="333" key="GridCell.Tab.0.bottom" timestamp="1600935984043">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600830117868" />
-    <state width="1869" height="279" key="GridCell.Tab.0.center" timestamp="1600830117868">
+    <state width="1869" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935984043" />
+    <state width="1869" height="333" key="GridCell.Tab.0.center" timestamp="1600935984042">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600830117868" />
-    <state width="1869" height="279" key="GridCell.Tab.0.left" timestamp="1600830117868">
+    <state width="1869" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935984042" />
+    <state width="1869" height="333" key="GridCell.Tab.0.left" timestamp="1600935984042">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600830117868" />
-    <state width="1869" height="279" key="GridCell.Tab.0.right" timestamp="1600830117868">
+    <state width="1869" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935984042" />
+    <state width="1869" height="333" key="GridCell.Tab.0.right" timestamp="1600935984043">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600830117868" />
+    <state width="1869" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935984043" />
+    <state width="1869" height="255" key="GridCell.Tab.1.bottom" timestamp="1600935983732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
+    <state width="1869" height="255" key="GridCell.Tab.1.center" timestamp="1600935983732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="255" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
+    <state width="1869" height="255" key="GridCell.Tab.1.left" timestamp="1600935983732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="255" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
+    <state width="1869" height="255" key="GridCell.Tab.1.right" timestamp="1600935983732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="255" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
     <state x="374" y="78" key="SettingsEditor" timestamp="1600673286913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="374" y="78" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600673286913" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/test3/Callbacks.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/drlee/unit10_innerclass/test4/Controller.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -29,7 +29,7 @@ class Callee2 extends MyIncrement{
     public void increment(){
         super.increment();
         i++;
-        System.out.println("i");
+        System.out.println(i);
     }
     private class Closure implements  Incrementable{
         public void increment() {
