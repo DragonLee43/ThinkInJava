@@ -54,7 +54,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Factorys">
+  <component name="RunManager" selected="Application.Callbacks">
+    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test3.Callbacks" />
+      <module name="ThinkInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drlee.unit10_innerclass.test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Factorys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test2.Factorys" />
       <module name="ThinkInJava" />
@@ -109,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.Factorys" />
         <item itemvalue="Application.Implementational1" />
         <item itemvalue="Application.Parcel8" />
@@ -127,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600673013309</updated>
       <workItem from="1600673016338" duration="6326000" />
-      <workItem from="1600825736158" duration="4981000" />
+      <workItem from="1600825736158" duration="7167000" />
     </task>
     <servers />
   </component>
@@ -147,11 +161,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600829857587">
+    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600918971868">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678212227" />
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600829857587" />
+    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600918971868" />
     <state width="1869" height="279" key="GridCell.Tab.0.bottom" timestamp="1600830117868">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
