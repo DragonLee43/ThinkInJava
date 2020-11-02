@@ -1,0 +1,83 @@
+package cn.ducis.macaw.util.exception;
+
+public class BusinessException extends Exception{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7681137711192904911L;
+	private long code;
+	private TypeEnum type;
+	
+	private BusinessException(TypeEnum type, long code, String msg, Throwable cause) {
+		super(msg, cause);
+		this.type = type;
+		this.code = code;
+	}
+	
+	public long getCode() {
+		return code;
+	}
+
+	public TypeEnum getType() {
+		return type;
+	}
+
+	public static BusinessException notExpected(long code, String msg, Throwable cause) {
+		return new BusinessException(TypeEnum.NotExpected, code, msg, cause);
+	}
+
+	public static BusinessException notExpected(long code, String msg) {
+		return new BusinessException(TypeEnum.NotExpected, code, msg, null);
+	}
+
+	public static BusinessException notExpected(long code) {
+		return new BusinessException(TypeEnum.NotExpected, code, "", null);
+	}
+	
+	public static BusinessException internalError(long code, String msg, Throwable cause) {
+		return new BusinessException(TypeEnum.InternalError, code, msg, cause);
+	}
+
+	public static BusinessException internalError(long code, String msg) {
+		return new BusinessException(TypeEnum.InternalError, code, msg, null);
+	}
+
+	public static BusinessException internalError(long code) {
+		return new BusinessException(TypeEnum.InternalError, code, "", null);
+	}
+	
+	public static BusinessException forbidden(long code, String msg, Throwable cause) {
+		return new BusinessException(TypeEnum.Forbidden, code, msg, cause);
+	}
+
+	public static BusinessException forbidden(long code, String msg) {
+		return new BusinessException(TypeEnum.Forbidden, code, msg, null);
+	}
+
+	public static BusinessException forbidden(long code) {
+		return new BusinessException(TypeEnum.Forbidden, code, "", null);
+	}
+
+	public static BusinessException forbidden() {
+		return new BusinessException(TypeEnum.NotFound, 0, "", null);
+	}
+
+	public static BusinessException notFound(long code, String msg) {
+		return new BusinessException(TypeEnum.NotFound, code, msg, null);
+	}
+
+	public static BusinessException notFound(long code) {
+		return new BusinessException(TypeEnum.NotFound, code, "", null);
+	}
+
+	public static BusinessException notFound() {
+		return new BusinessException(TypeEnum.NotFound, 0, "", null);
+	}
+	
+	public static enum TypeEnum{
+		NotExpected,
+		InternalError,
+		Forbidden,
+		NotFound
+	}
+}
