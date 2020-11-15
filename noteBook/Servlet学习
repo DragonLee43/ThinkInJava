@@ -127,6 +127,120 @@
 			
 			Cookie[] cookies = request.getCookies();
 		
+	4. Cookie的声明周期
+		- 默认情况下，Cookie存储在浏览器的缓存中， 因此只要浏览器关闭，Cookie对象就会自动销毁掉。
+		- 手动情况下，可以要求浏览器将接收的Cookie存放在硬盘中，在存活时间范围内，都不会导致Cookie被销毁。
+		
+		cookie.setMaxAge(60);// 设置Cookie的存活时间60秒。
+		
+
+十、 HttpSession接口
+		1. 介绍：HttpSession接口来自于Servlet规范下的一个接口。存在于servlet-jar.api包中。称为【会话作用域对象】
+		2. HttpSession 与Cookie的区别
+			- 存储位置：Cookie存放在浏览器缓存或硬盘中， HttpSession存放在服务器的内存中。
+			- 存储类型：Cookie存储的共享数据类型只能是String。 而HttpSession可以存储任意类型。
+			- 数据数量：一个Cookie只能存储一个键值对key&value； 而HttpSession使用map存储共享数据，可以存放任意共享数据。
+			
+		3. HttpSession的获取方式：
+			HttpSession session = request.getSession();// 获取HttpSession
+			session.setAttribute(key, 共享数据); // 往HttpSession中存放共享数据.
+			
+			Object object = session.getAttribute(key); // 其他Servlet获取共享数据方式。
+			
+		4. Http服务器 如何将用户/浏览器 和 HttpSession 关联起来的？（不同的用户发起请求，
+			后端根据请求对象获取到的HttpSession，HttpSession中可以根据不同用户返回各自用户保存的数据。怎么做到的）
+			 使用cookie关联起来的，原理如下
+			【浏览器用户和HttpSession关联的原理】：
+				用户第一次发起请求后，Servlet如果用HttpSession为当前用户缓存*了该用户的数据，那么Tomcat会自动创建
+				一个该HttpSession的Cookie(name=JSESSIONID),并随着响应体返回给浏览器。当该浏览器进行下次请求的时候，
+				会自动携带这个名为JSESSIONID的Cookie，Servlet在获取HttpSession对象时，会拿到响应头中的Cookie，并
+				判断有没有name=JSESSIONID的 Cookie，如果有，则根据SESSIONID的值从内存中获取到对应的HttpSession。
+				
+		5.  getSession() 与getSession(false);
+				getSession() : 如果当前请求对象已经拥有了HttpSession对象，那么要求Tomcat将携带这个session对象的sessionId 的Cookie返回。
+				如果没有HttpSession对象，那么创建一个HttpSession对象，并创建一个Cookie(key为JSESSIONID，value为HttpSession对象的id )，
+				将该Cookie写到响应头中，返回给浏览器。
+			getSession(false)： 如果没有HttpSession对象，返回null，不给响应头中添加JSSIONID的cookie。
+		
+		6. HttpSession的销毁时机
+			
+			- 用户与HttpSession关联时使用的Cookie只能存放在浏览器的缓存中，在浏览器关闭时，Cookie失效，但是Tomcat无法检测到Cookie何时失效(浏览器何时关闭)
+				因此浏览器关闭时，并不会导致Tomcat将浏览器关联的HttpSession进行销毁。 为了解决这个问题，Tomcat会为每个HttpSession对象设置一个【空闲时间】，
+				默认30分钟，当【空闲时间】过后，Tomcat就会销毁掉这个HttpSession。
+			- HttpSession对象【空闲时间】的设置：
+				/web/WEB-INF/web.xml
+				<session-config>
+					<session-timeout>5</session-timeout>  <!--当前网站中每一个session最大空闲时间5分钟-->
+				</session-config>
+		
+十一、HttpServletRequest接口实现数据共享
+		1. 介绍： 在同一个网站中，如果两个Servlet之间通过【请求转发】方式进行调用，彼此之间共享同一个请求协议包。而同一个请求协议包
+		共享同一个请求对象。因此，可以通过这个请求对象在两个Servlet之间实现数据共享。
+		
+		OneServlet：
+			request.setAttribute(key1,value1);
+			request.getRequestDispatcher("/two").forward(request,response);//请求转发给TwoServlet
+			
+		TwoServlet：
+			request.getAttribute(key1);// 获取OneServlet添加进去的key1的值
+
+十二、 监听器接口
+			1）介绍： 
+				- 是一组Servlet规范下的接口，共有8个接口。存在于servlet-api.jar包中。
+				- 监听器接口需要开发人员亲自实现，Http提供的jar包并没有对应的实现类。
+				- 监听器用于监控【作用域对象生命周期变化时刻】以及【作用域对象共享数据变化时刻】
+				
+			2）作用域对象：
+				在某些条件下为两个Servlet之间提供数据共享方案的对象，称为【作用域对象】
+				
+			3）在Servlet规范下的作用域对象
+				1. ServletContext ： 全局作用域对象
+				2. HttpSession ： 回话作用域对象
+				3. HttpServletRequest： 请求作用域对象
+			
+			4） 监听器接口实现类开发规范：三步
+				- 根据监听器实际情况，选择对应监听器接口进行实现
+				- 重写监听器接口中声明【监听事件处理方法】
+				- 在web.xml文件将监听器接口实现类注册到Http服务器。
+			
+			4. 实例：
+				【ServletContextListener】监听器接口：
+				
+					作用：通过这个监听器合法的检测全局作用域对象被初始化时刻以及被销毁时刻。
+					- 2个监听事件处理方法
+						public void contextInitlized(); // 在全局作用于对象被Http服务器初始化时被调用
+						public void contextDestory();// 在全局作用于对象被HTTP服务器销毁时被调用。
+					- 监听器实现:
+						项目下创建一个listener包-> 创建自己的监听器类-OneListener，这个类实现ServletContextListener接口，
+						-> 重写这个接口里的contextInitlized和contextDestory方法。-> 将这个类交给HTTP服务器托管.
+						这样就完成了一个简单的自定义的监听器的实现。
+					 
+				【ServletContextAttributeListener】监听器接口：
+					- 作用： 可以合法的检测全局作用域对象共享数据的变化。
+					- 监听事件处理方法：
+							public void contextAdd(): // 在全局作用域对象添加共享数据时触发
+							public void contextReplaced(): // 在全局作用域更新共享数据时触发
+							public void contextRemove(): //在全局作用域删除共享数据时触发
+				
+					
+十八、过滤器接口--Filter
+	
+	1. 介绍：来自于servlet-api.jar包中。由开发人员负责提供实现。Filter接口在Http服务器调用资源文件
+	之前，对HTTP服务器进行拦截。
+		
+	2. 具体作用
+		- 拦截Http服务器，帮助Http服务器检测当前请求的合法性。
+		- 拦截HTTP服务器，对当前请求进行增强操作。 
+		
+	3. 实现：
+		1）创建一个Java类，实现Filter接口
+		2）重写Filter接口中的doFilter方法
+		3）web.xml将过滤器接口实现类注册到Http服务器。
+		
+		 
+		
+		
+		
 		
 		
 		
