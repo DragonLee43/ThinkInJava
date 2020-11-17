@@ -19,7 +19,7 @@
 		2. 可以读取保存在Http协议包中【请求头】或【请求体】中参数信息
 		3. 可以代替浏览器想http服务器申请资源文件调用。
 		
-		URI：资源文件的精准定位地址，实际上是url中截取的字符串。字符串格式"/网站名/资源文件名"
+		【URI】：资源文件的精准定位地址，实际上是url中截取的字符串。字符串格式"/网站名/资源文件名"
 		可以通过request.getRequestURI();方法获取URI。	
 		
 		
@@ -34,7 +34,7 @@
 				请求对象（Request对象）负责解码的。request对象默认使用【ISO-8859-1】（东欧语系字符集）字符集进行解码。如果请求体参数中有中文，将无法解码，
 				只能得到乱码。
 				
-		解决方案
+		解决方案：
 				通知请求对象（request），使用UTF-8字符集对请求的二进制内容进行解码。
 				request.setCharacterEncoding("UTF-8");
 		
@@ -67,7 +67,7 @@
 				工作原理：用户第一次请求浏览器访问oneServlet，第一个Servlet工作完成后，通过当前的请求对象代替浏览器向Tomcat发送请求，申请调用twoServlet，Tomcat接收到请求后
 					自动调用twoServlet来完成剩余任务。
 				
-				实现：【请求对象】代替浏览器想Tomcat发送请求.
+				实现：【请求对象】代替浏览器向Tomcat发送请求.
 				// 通过当前请求对象生成资源文件申请报告对象.
 				RequestDispatcher report = request.getRequestDispatcher("/资源文件名"); // 一定要以"/"开头。 不能访问外部网站。不能写网站名
 				report.forward(当前请求对象, 当前响应对象);  // Tomcat会获取到请求对象的请求协议包，所以请求转发的请求方式和浏览器第一次访问的请求方式一样。
@@ -78,7 +78,7 @@
 					- 请求次数：请求转发过程中，浏览器只发送一次请求。
 					- 请求地址：请求地址只能调用当前网站下资源文件地址，不可以是外部的资源文件。
 					- 请求方式：【get】和【post】都可以。在请求转发过程中，浏览器只发送了一个Http请求协议包。参与本次请求的所有Servlet共享同一个请求协议包，因此
-					这些Servlet接收的请求方式与露露拿起发送的请求方式保持一致。 
+					这些Servlet接收的请求方式与第一次发送的请求方式保持一致。 
 					
 
 八、ServletContext接口【全局作用域对象】
@@ -110,7 +110,7 @@
 		用户通过浏览器第一次向服务器发送请求oneServlet，oneServlet在运行期间创建一个Cookie存储与当前用户相关数据。
 		OneServlet工作完毕后，将【Cookie】写入到响应头中交给浏览器。浏览器收到响应包之后，将Cookie存储在浏览器的缓存。
 		一段时间过后用户通过【同一个浏览器】再次向该网站发送请求申请Servlet时，
-		【浏览器需要无条件的将之前存储的Cookie写入到请求头中】发送到后端。
+		【浏览器会无条件的将之前存储的Cookie写入到请求头中】发送到后端。
 		此时TwoServlet就可以通过读取请求头中cookie信息，得到OneServlet提供的共享数据
 		
 	3. 实例：同一个网站 OneServlet和TwoServlet借助于Cookie实现数据共享。
@@ -151,9 +151,9 @@
 			后端根据请求对象获取到的HttpSession，HttpSession中可以根据不同用户返回各自用户保存的数据。怎么做到的）
 			 使用cookie关联起来的，原理如下
 			【浏览器用户和HttpSession关联的原理】：
-				用户第一次发起请求后，Servlet如果用HttpSession为当前用户缓存*了该用户的数据，那么Tomcat会自动创建
+				用户第一次发起请求后，Servlet如果用request.getSession()为当前用户缓存了该用户的数据，那么Tomcat会自动创建
 				一个该HttpSession的Cookie(name=JSESSIONID),并随着响应体返回给浏览器。当该浏览器进行下次请求的时候，
-				会自动携带这个名为JSESSIONID的Cookie，Servlet在获取HttpSession对象时，会拿到响应头中的Cookie，并
+				会自动携带这个名为JSESSIONID的Cookie，Servlet再次获取HttpSession对象时，会拿到响应头中的Cookie，并
 				判断有没有name=JSESSIONID的 Cookie，如果有，则根据SESSIONID的值从内存中获取到对应的HttpSession。
 				
 		5.  getSession() 与getSession(false);
@@ -161,6 +161,11 @@
 				如果没有HttpSession对象，那么创建一个HttpSession对象，并创建一个Cookie(key为JSESSIONID，value为HttpSession对象的id )，
 				将该Cookie写到响应头中，返回给浏览器。
 			getSession(false)： 如果没有HttpSession对象，返回null，不给响应头中添加JSSIONID的cookie。
+				可以利用这两个方法的区别来做“防止用户恶意登录”的功能，即：用户要访问web服务器里的资源，必须先登录，如果没有登录，就不能通过url地址访问web服务器里的其他资源。
+				方法：做一个过滤器，过滤web资源里的所有资源；如果遇到登录的Servlet，则放行，登录的Servlet中运用request.getSession()来给用户分配一个Session。
+				如果用户登录成功，获取用户的HttpSession。此时，用户已经有了一个SessionId;下次
+				该用户在访问该网站的时候，在过滤器里会根据getSession(false)去判断这个用户有没有HttpSession，如果没有，则说明用户是没有登录的，拦截返回就好了，如果有。那么
+				方形去访问具体的web资源。
 		
 		6. HttpSession的销毁时机
 			
@@ -237,8 +242,9 @@
 		2）重写Filter接口中的doFilter方法
 		3）web.xml将过滤器接口实现类注册到Http服务器。
 		
-		 
-		
+		过滤器详情：查看Servlet过滤器
+	
+完。
 		
 		
 		
