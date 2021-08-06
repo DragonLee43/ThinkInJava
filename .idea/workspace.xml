@@ -19,7 +19,60 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4847347-19c4-4d39-a9c8-2bf341a5eedf" name="Default Changelist" comment="" />
+    <list default="true" id="c4847347-19c4-4d39-a9c8-2bf341a5eedf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Contents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Contents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Destination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Destination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1$Contents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1$Contents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1$Destination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1$Destination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7b$MyContents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7b$MyContents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7b.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel7b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Parcel8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Selector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Selector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence$SequenceSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence$SequenceSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Sequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Wrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test1/Wrapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Factorys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Factorys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Implementational2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test2/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callbacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callbacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2$Closure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2$Closure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Callee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Caller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Caller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Incrementable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Incrementable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/MyIncrement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/MyIncrement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelContents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelContents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelDestination$AnotherLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelDestination$AnotherLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11$ParcelDestination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test3/Parcel11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$Bell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$Bell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$LightOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$LightOff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$LightOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$LightOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$Restart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$Restart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$WaterOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$WaterOff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$WaterOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls$WaterOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenHouseControls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenhouseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit10_innerclass/test4/GreenhouseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit7/FinalData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit7/FinalData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drlee/unit7/Value.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,20 +98,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test3.Callbacks" />
+  <component name="RunManager" selected="Application.User">
+    <configuration name="ClassFileStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.oom.ClassFileStructure" />
       <module name="ThinkInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.drlee.unit10_innerclass.test3.*" />
+          <option name="PATTERN" value="com.drlee.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,38 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test2.Factorys" />
+    <configuration name="HeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.drlee.oom.HeapOOM" />
       <module name="ThinkInJava" />
+      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.drlee.unit10_innerclass.test2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreenhouseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test4.GreenhouseController" />
-      <module name="ThinkInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.drlee.unit10_innerclass.test4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Implementational1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drlee.unit10_innerclass.test2.Implementational1" />
-      <module name="ThinkInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.drlee.unit10_innerclass.test2.*" />
+          <option name="PATTERN" value="com.drlee.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +156,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryFinallyException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.oom.TryFinallyException" />
+      <module name="ThinkInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drlee.oom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drlee.proxy.User" />
+      <module name="ThinkInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drlee.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ClassFileStructure" />
+      <item itemvalue="Application.TryFinallyException" />
+      <item itemvalue="Application.User" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.ClassFileStructure" />
+        <item itemvalue="Application.TryFinallyException" />
+        <item itemvalue="Application.HeapOOM" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.GreenhouseController" />
-        <item itemvalue="Application.Callbacks" />
-        <item itemvalue="Application.Factorys" />
-        <item itemvalue="Application.Implementational1" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +211,15 @@
       <updated>1600673013309</updated>
       <workItem from="1600673016338" duration="6326000" />
       <workItem from="1600825736158" duration="17110000" />
+      <workItem from="1626059880681" duration="6133000" />
+      <workItem from="1626250232146" duration="358000" />
+      <workItem from="1626250613307" duration="2741000" />
+      <workItem from="1626254038806" duration="22000" />
+      <workItem from="1626254075282" duration="5061000" />
+      <workItem from="1626660714139" duration="686000" />
+      <workItem from="1627264559481" duration="13000" />
+      <workItem from="1628064334923" duration="915000" />
+      <workItem from="1628240138574" duration="1639000" />
     </task>
     <servers />
   </component>
@@ -159,59 +239,86 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600935398968">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2522" y="376" key="#Custom_Plugin_Repositories" timestamp="1626253950196">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600678212227" />
-    <state x="2638" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935398968" />
-    <state width="528" height="582" key="DebuggerActiveHint" timestamp="1600935797936">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2522" y="376" key="#Custom_Plugin_Repositories/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626253950196" />
+    <state x="2403" y="162" key="#HTTP_Proxy" timestamp="1626253967022">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="528" height="582" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935797936" />
-    <state width="1869" height="292" key="GridCell.Tab.0.bottom" timestamp="1601025557508">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2403" y="162" key="#HTTP_Proxy/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626253967022" />
+    <state x="2082" y="52" key="#Project_Structure" timestamp="1626072621546">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601025557508" />
-    <state width="1869" height="292" key="GridCell.Tab.0.center" timestamp="1601025557507">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2082" y="52" key="#Project_Structure/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626072621546" />
+    <state x="2128" y="0" width="1228" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626072997644">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601025557507" />
-    <state width="1869" height="292" key="GridCell.Tab.0.left" timestamp="1601025557507">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2128" y="0" width="1228" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626072997644" />
+    <state x="2411" y="363" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626251425592">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601025557507" />
-    <state width="1869" height="292" key="GridCell.Tab.0.right" timestamp="1601025557508">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2411" y="363" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626251425592" />
+    <state x="2638" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1628240238388">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600768965356" />
-    <state width="1869" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601025557508" />
-    <state width="1869" height="255" key="GridCell.Tab.1.bottom" timestamp="1600935983732">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2638" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1628240238388" />
+    <state x="2457" y="277" key="FileChooserDialogImpl" timestamp="1626660791874">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
-    <state width="1869" height="255" key="GridCell.Tab.1.center" timestamp="1600935983732">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2457" y="277" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626660791874" />
+    <state width="1867" height="346" key="GridCell.Tab.0.bottom" timestamp="1628243132698">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="255" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
-    <state width="1869" height="255" key="GridCell.Tab.1.left" timestamp="1600935983732">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1867" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1628243132698" />
+    <state width="1867" height="346" key="GridCell.Tab.0.center" timestamp="1628243132698">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="255" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
-    <state width="1869" height="255" key="GridCell.Tab.1.right" timestamp="1600935983732">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1867" height="346" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1628243132698" />
+    <state width="1867" height="346" key="GridCell.Tab.0.left" timestamp="1628243132698">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1869" height="255" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600935983732" />
-    <state x="374" y="78" key="SettingsEditor" timestamp="1600673286913">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1867" height="346" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1628243132698" />
+    <state width="1867" height="346" key="GridCell.Tab.0.right" timestamp="1628243132698">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="374" y="78" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600673286913" />
-    <state x="2459" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1601024004899">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1867" height="346" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1628243132698" />
+    <state width="1869" height="412" key="GridCell.Tab.1.bottom" timestamp="1626250215307">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2459" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601024004899" />
+    <state width="1869" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626250215307" />
+    <state width="1869" height="412" key="GridCell.Tab.1.center" timestamp="1626250215307">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1869" height="412" key="GridCell.Tab.1.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626250215307" />
+    <state width="1869" height="412" key="GridCell.Tab.1.left" timestamp="1626250215307">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1869" height="412" key="GridCell.Tab.1.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626250215307" />
+    <state width="1869" height="412" key="GridCell.Tab.1.right" timestamp="1626250215307">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1869" height="412" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626250215307" />
+    <state x="2103" y="58" key="SettingsEditor" timestamp="1626254059805">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2103" y="58" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626254059805" />
+    <state width="990" height="1158" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1626250452476">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="990" height="1158" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626250452476" />
+    <state x="2413" y="452" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1626072638394">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2413" y="452" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626072638394" />
+    <state x="2496" y="248" width="767" height="664" key="find.popup" timestamp="1626253536335">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2496" y="248" width="767" height="664" key="find.popup/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626253536335" />
+    <state x="1927" y="130" key="new project wizard" timestamp="1626072558845">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1927" y="130" key="new project wizard/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1626072558845" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
